@@ -1,0 +1,12 @@
+##!/bin/bash
+
+read -p "enter any number to get factorial: " n
+fact=1
+
+for((i=1;i<=n;i++))
+	do
+		fact=$n($n-1)
+done
+
+echo $fact 
+	
